@@ -1,0 +1,30 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	color: #333;
+	margin-bottom: 250px;
+}
+
+.container {
+	margin-top: 5em;
+	max-width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 300;
+	font-size: .95em;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
