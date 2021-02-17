@@ -4,13 +4,6 @@ body {
 	margin-bottom: 250px;
 }
 
-.container {
-	margin-top: 5em;
-	max-width: 750px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 h1 {
 	font-size: 3em;
 }
@@ -20,11 +13,45 @@ p {
 	margin-bottom: 50px;
 	font-weight: 300;
 	font-size: .95em;
-	text-align: justify;
 	line-height: 1.5;
+	text-align: justify;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+
+hr { 
+	display: block; 
+	height: 1px;
+    border: 0; 
+    border-top: 1px solid #c3c3c3;
+    padding: 0;
+    width: 50%;
+    margin-right: 0;
+}
+
+
+/*hr{
+	border-top: 1px solid: #c3c3c3;
+	border: 0;
+	text-align: right;
+	margin-right: 0;
+	width: 50%;
+}*/
+
+
+.container {
+	margin-top: 5em;
+	max-width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.date {
+	margin-top: 0px;
+	text-align: right;
+	color: #c3c3c3;
 }
